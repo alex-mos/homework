@@ -14,11 +14,12 @@ cd homework/lesson1
 ```
 Собрать контейнер
 ```
-docker build -t homework/lesson1 .
+sudo docker build -t homework/lesson1 .
 ```
-Запустить контейнер и пробросить на 8000 порт:
+Запустить контейнер и пробросить на 80 порт:
 ```
-docker run -d -p 80:8000 homework/lesson1
+sudo docker run -d -p 80:80 homework/lesson1
 ```
-Открыть [localhost:8000](http://localhost:8000) в браузере.
+Открыть [localhost](http://localhost) в браузере.
 
+[Пример контейнера, запущенный на сервере](http://188.166.86.206/)
