@@ -6,7 +6,7 @@
 
 Склонировать репозиторий:
 ```
-clone git@github.com:alex-mos/homework.git
+git clone git@github.com:alex-mos/homework.git
 ```
 Перейти в папку первого задания:
 ```
